@@ -13,7 +13,7 @@ public class shiroTest {
 
     @Test
     public void testHelloworld(){
-        
+        //获取SecurityMananger工厂，
         Factory<SecurityManager> factory=new IniSecurityManagerFactory("classpath:shiro.ini");
         SecurityManager  securityManager=factory.getInstance();
         SecurityUtils.setSecurityManager(securityManager);

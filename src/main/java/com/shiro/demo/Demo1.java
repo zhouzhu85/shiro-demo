@@ -10,6 +10,9 @@ import org.apache.shiro.util.Factory;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * 身份认证
+ */
 public class Demo1 {
 
     @Test

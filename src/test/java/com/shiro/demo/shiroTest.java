@@ -69,5 +69,5 @@ public class shiroTest {
         String simpleHash = new SimpleHash("SHA-1", str, salt).toString();
         System.out.println(simpleHash);
     }
-    
+
 }

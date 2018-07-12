@@ -5,11 +5,16 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.codec.Base64;
 import org.apache.shiro.codec.Hex;
 import org.apache.shiro.config.IniSecurityManagerFactory;
+import org.apache.shiro.crypto.SecureRandomNumberGenerator;
+import org.apache.shiro.crypto.hash.DefaultHashService;
+import org.apache.shiro.crypto.hash.HashRequest;
 import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.subject.Subject;
+import org.apache.shiro.util.ByteSource;
 import org.apache.shiro.util.Factory;
+import org.apache.shiro.util.SimpleByteSource;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -69,5 +74,34 @@ public class shiroTest {
         String simpleHash = new SimpleHash("SHA-1", str, salt).toString();
         System.out.println(simpleHash);
     }
+
+    @Test
+    public void testHashService(){
+        DefaultHashService hashService=new DefaultHashService();
+        //默认算法SHA-512
+        hashService.setHashAlgorithmName("SHA-512");
+        //私盐，默认无
+        hashService.setPrivateSalt(new SimpleByteSource("123"));
+        //是否生成公盐，默认false
+        hashService.setGeneratePublicSalt(true);
+        //用于生成公盐，默认就这个
+        hashService.setRandomNumberGenerator(new SecureRandomNumberGenerator());
+        //生成hash值得迭代次数
+        hashService.setHashIterations(1);
+        HashRequest request=new HashRequest.Builder()
+                .setAlgorithmName("MD5").setSource(ByteSource.Util.bytes("hello"))
+                .setSalt(ByteSource.Util.bytes("123")).setIterations(2).build();
+        String hex=hashService.computeHash(request).toHex();
+        System.out.println(hex);
+    }
+
+    @Test
+    public void testSecureRandomNumberGenerator(){
+        SecureRandomNumberGenerator randomNumberGenerator=new SecureRandomNumberGenerator();
+        randomNumberGenerator.setSeed("123".getBytes());
+        String hex = randomNumberGenerator.nextBytes().toHex();
+        System.out.println(hex);
+    }
+
 
 }

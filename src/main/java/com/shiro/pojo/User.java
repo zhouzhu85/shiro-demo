@@ -47,6 +47,10 @@ public class User implements Serializable{
         return username+salt;
     }
 
+    public String getSalt() {
+        return salt;
+    }
+
     public void setSalt(String salt) {
         this.salt = salt;
     }

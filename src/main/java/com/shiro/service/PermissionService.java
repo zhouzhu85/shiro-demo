@@ -1,6 +1,7 @@
 package com.shiro.service;
 
-import org.apache.shiro.authz.Permission;
+
+import com.shiro.pojo.Permission;
 
 public interface PermissionService {
     public Permission createPermission(Permission permission);

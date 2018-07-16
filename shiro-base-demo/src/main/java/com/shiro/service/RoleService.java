@@ -1,6 +1,7 @@
 package com.shiro.service;
 
-import javax.management.relation.Role;
+
+import com.shiro.pojo.Role;
 
 public interface RoleService {
     public Role createRole(Role role);

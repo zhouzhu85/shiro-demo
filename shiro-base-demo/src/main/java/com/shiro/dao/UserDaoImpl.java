@@ -1,7 +1,7 @@
 package com.shiro.dao;
 
 import com.shiro.pojo.User;
-import com.shiro.utils.JdbcTemplateUitls;
+import com.shiro.utils.JdbcTemplateUtils;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
@@ -16,7 +16,7 @@ import java.util.Set;
 
 public class UserDaoImpl implements UserDao{
 
-    private JdbcTemplate jdbcTemplate=JdbcTemplateUitls.createJdbcTemplate();
+    private JdbcTemplate jdbcTemplate= JdbcTemplateUtils.createJdbcTemplate();
 
     @Override
     public User createUser(final User user) {
@@ -43,13 +43,13 @@ public class UserDaoImpl implements UserDao{
     @Override
     public void updateUser(User user) {
         String sql="update sys_users set username=?,password=?,salt=?,locked=? where id=?";
-        jdbcTemplate.update(sql);
+        jdbcTemplate.update(sql,user.getUsername(), user.getPassword(), user.getSalt(), user.getLocked(), user.getId());
     }
 
     @Override
     public void deleteUser(Long userId) {
         String sql="DELETE FROM sys_users WHERE id=?";
-        jdbcTemplate.update(sql);
+        jdbcTemplate.update(sql,userId);
     }
 
     @Override
@@ -59,7 +59,7 @@ public class UserDaoImpl implements UserDao{
         }
         String sql="INSERT INTO sys_users_roles(user_id,role_id) VALUES (?,?)";
         for (Long roleId:roleIds){
-            if (exists(userId,roleId)){
+            if (!exists(userId,roleId)){
                 jdbcTemplate.update(sql,userId,roleId);
             }
         }
@@ -73,7 +73,7 @@ public class UserDaoImpl implements UserDao{
         }
         for (Long roleId:roleIds){
             if(exists(userId,roleId)){
-                jdbcTemplate.update(sql);
+                jdbcTemplate.update(sql,userId,roleId);
             }
         }
     }
@@ -107,7 +107,7 @@ public class UserDaoImpl implements UserDao{
 
     @Override
     public Set<String> findRoles(String username) {
-        String sql="SELECT role FROM sys_users u,sys_role r,sys_users_roles ur WHERE u.username=? AND u.id=ur.user_id AND r.id=ur.role_id";
+        String sql="SELECT role FROM sys_users u,sys_roles r,sys_users_roles ur WHERE u.username=? AND u.id=ur.user_id AND r.id=ur.role_id";
         return new HashSet<>(jdbcTemplate.queryForList(sql,String.class,username));
     }
 

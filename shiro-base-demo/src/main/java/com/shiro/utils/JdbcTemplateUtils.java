@@ -3,7 +3,7 @@ package com.shiro.utils;
 import com.alibaba.druid.pool.DruidDataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-public class JdbcTemplateUitls {
+public class JdbcTemplateUtils {
     private static JdbcTemplate jdbcTemplate;
 
     public static JdbcTemplate jdbcTemplate(){
@@ -18,7 +18,7 @@ public class JdbcTemplateUitls {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/shiro");
         dataSource.setUsername("root");
-        dataSource.setPassword("zhouzhu");
+        dataSource.setPassword("123456");
         return new JdbcTemplate(dataSource);
     }
 }

@@ -1,7 +1,7 @@
 package com.shiro.dao;
 
 import com.shiro.pojo.Role;
-import com.shiro.utils.JdbcTemplateUitls;
+import com.shiro.utils.JdbcTemplateUtils;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
@@ -12,7 +12,7 @@ import java.sql.SQLException;
 
 public class RoleDaoImpl implements RoleDao{
 
-    private JdbcTemplate jdbcTemplate= JdbcTemplateUitls.createJdbcTemplate();
+    private JdbcTemplate jdbcTemplate= JdbcTemplateUtils.createJdbcTemplate();
 
     @Override
     public Role createRole(final Role role) {

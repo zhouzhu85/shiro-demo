@@ -1,3 +1,4 @@
+<%--
 <%@page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <%@ taglib prefix="zhang" tagdir="/WEB-INF/tags" %>
@@ -42,4 +43,37 @@
             用户[<shiro:principal/>]拥有权限user:create或abc:update<br/>
         </zhang:hasAnyPermissions>
     </body>
+</html>
+--%>
+
+<%@ page import="org.apache.shiro.SecurityUtils" %>
+<%@ page import="com.shiroweb.session.OnlineSession" %>
+<%@ page import="com.shiroweb.session.MySessionDAO " %>
+<%@ page import="java.io.Serializable" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
+<html>
+<body>
+<shiro:guest>
+    欢迎游客访问，<a href="${pageContext.request.contextPath}/login.jsp">点击登录</a><br/>
+</shiro:guest>
+<shiro:user>
+    欢迎[<shiro:principal/>]登录，<a href="${pageContext.request.contextPath}/logout">点击退出</a><br/>
+</shiro:user>
+
+<shiro:user>
+    <%
+        SecurityUtils.getSubject().getSession().setAttribute("key", 123);
+        System.out.println(SecurityUtils.getSubject().getSession().getAttribute("key"));
+    %>
+    <br/>
+    <%
+        MySessionDAO sessionDAO = new MySessionDAO();
+        Serializable sessionId = SecurityUtils.getSubject().getSession().getId();
+        OnlineSession onlineSession = (OnlineSession)sessionDAO.readSession(sessionId);
+        System.out.println(onlineSession.getStatus().getInfo());
+    %>
+</shiro:user>
+
+</body>
 </html>

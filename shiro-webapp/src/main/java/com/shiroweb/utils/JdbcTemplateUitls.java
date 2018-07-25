@@ -18,7 +18,7 @@ public class JdbcTemplateUitls {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/shiro");
         dataSource.setUsername("root");
-        dataSource.setPassword("zhouzhu");
+        dataSource.setPassword("123456");
         return new JdbcTemplate(dataSource);
     }
 }

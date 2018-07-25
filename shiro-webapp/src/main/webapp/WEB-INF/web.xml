@@ -5,32 +5,59 @@
         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
         version="3.0"
         metadata-complete="false">
-        
-  
-      <listener>
-        <listener-class>org.apache.shiro.web.env.EnvironmentLoaderListener</listener-class>
-      </listener>
-      <!--<context-param>-->
-        <!--<param-name>shiroEnvironmentClass</param-name>-->
-          <!--&lt;!&ndash; 默认先从/WEB-INF/shiro.ini，如果没有找classpath:shiro.ini &ndash;&gt;-->
-        <!--<param-value>org.apache.shiro.web.env.IniWebEnvironment</param-value>-->
-      <!--</context-param>-->
-      <context-param>
-        <param-name>shiroConfigLocations</param-name>
-        <param-value>classpath:shiro-jsp.ini</param-value>
-      </context-param>
-    <filter>
-        <filter-name>shiroFilter</filter-name>
-        <filter-class>org.apache.shiro.web.servlet.ShiroFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>shiroFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
 
-    <context-param>
-        <param-name>shiroEnvironmentClass</param-name>
-        <param-value>com.shiroweb.env.MyIniWebEnvironment</param-value>
-    </context-param>
-  
+
+      <!--<listener>-->
+        <!--<listener-class>org.apache.shiro.web.env.EnvironmentLoaderListener</listener-class>-->
+      <!--</listener>-->
+      <!--&lt;!&ndash;<context-param>&ndash;&gt;-->
+        <!--&lt;!&ndash;<param-name>shiroEnvironmentClass</param-name>&ndash;&gt;-->
+          <!--&lt;!&ndash;&lt;!&ndash; 默认先从/WEB-INF/shiro.ini，如果没有找classpath:shiro.ini &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<param-value>org.apache.shiro.web.env.IniWebEnvironment</param-value>&ndash;&gt;-->
+      <!--&lt;!&ndash;</context-param>&ndash;&gt;-->
+      <!--<context-param>-->
+        <!--<param-name>shiroConfigLocations</param-name>-->
+        <!--<param-value>classpath:shiro-web-session.ini</param-value>-->
+      <!--</context-param>-->
+    <!--<filter>-->
+        <!--<filter-name>shiroFilter</filter-name>-->
+        <!--<filter-class>org.apache.shiro.web.servlet.ShiroFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>shiroFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+
+    <!--<context-param>-->
+        <!--<param-name>shiroEnvironmentClass</param-name>-->
+        <!--<param-value>com.shiroweb.env.MyIniWebEnvironment</param-value>-->
+    <!--</context-param>-->
+    <!--<error-page>-->
+        <!--<exception-type>org.apache.shiro.session.InvalidSessionException</exception-type>-->
+        <!--<location>/invalidSession.jsp</location>-->
+    <!--</error-page>-->
+      <listener>
+            <listener-class>org.apache.shiro.web.env.EnvironmentLoaderListener</listener-class>
+      </listener>
+      <context-param>
+            <param-name>shiroEnvironmentClass</param-name>
+            <param-value>org.apache.shiro.web.env.IniWebEnvironment</param-value>
+      </context-param>
+      <context-param>
+            <param-name>shiroConfigLocations</param-name>
+            <param-value>classpath:shiro-web-session1.ini</param-value>
+      </context-param>
+      <filter>
+            <filter-name>shiroFilter</filter-name>
+            <filter-class>org.apache.shiro.web.servlet.ShiroFilter</filter-class>
+      </filter>
+      <filter-mapping>
+            <filter-name>shiroFilter</filter-name>
+            <url-pattern>/*</url-pattern>
+      </filter-mapping>
+
+      <error-page>
+            <exception-type>org.apache.shiro.session.InvalidSessionException</exception-type>
+            <location>/invalidSession.jsp</location>
+      </error-page>
 </web-app>

@@ -1,6 +1,6 @@
 package com.github.zhouzhu.shiro.dao;
 
-import com.github.zhouzhu.shiro.pojo.User;
+import com.github.zhouzhu.shiro.entity.User;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;

@@ -1,7 +1,7 @@
 package com.github.zhouzhu.shiro.service;
 
 
-import com.github.zhouzhu.shiro.pojo.User;
+import com.github.zhouzhu.shiro.entity.User;
 import org.apache.shiro.crypto.RandomNumberGenerator;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.SimpleHash;

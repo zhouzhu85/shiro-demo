@@ -2,7 +2,7 @@ package com.github.zhouzhu.shiro.dao;
 
 
 
-import com.github.zhouzhu.shiro.pojo.User;
+import com.github.zhouzhu.shiro.entity.User;
 
 import java.util.Set;
 

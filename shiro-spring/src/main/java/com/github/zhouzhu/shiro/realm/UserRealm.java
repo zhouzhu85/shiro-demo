@@ -1,7 +1,7 @@
 package com.github.zhouzhu.shiro.realm;
 
 
-import com.github.zhouzhu.shiro.pojo.User;
+import com.github.zhouzhu.shiro.entity.User;
 import com.github.zhouzhu.shiro.service.UserService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;

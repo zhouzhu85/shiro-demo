@@ -1,6 +1,6 @@
 package com.github.zhouzhu.shiro.dao;
 
-import com.github.zhouzhu.shiro.pojo.Role;
+import com.github.zhouzhu.shiro.entity.Role;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.jdbc.support.GeneratedKeyHolder;

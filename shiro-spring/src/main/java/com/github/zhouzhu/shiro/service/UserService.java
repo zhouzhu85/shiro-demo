@@ -1,6 +1,6 @@
 package com.github.zhouzhu.shiro.service;
 
-import com.github.zhouzhu.shiro.pojo.User;
+import com.github.zhouzhu.shiro.entity.User;
 
 import java.util.Set;
 

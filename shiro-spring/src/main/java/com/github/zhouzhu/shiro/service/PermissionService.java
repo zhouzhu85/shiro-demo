@@ -1,7 +1,7 @@
 package com.github.zhouzhu.shiro.service;
 
 
-import com.github.zhouzhu.shiro.pojo.Permission;
+import com.github.zhouzhu.shiro.entity.Permission;
 
 /**
  *

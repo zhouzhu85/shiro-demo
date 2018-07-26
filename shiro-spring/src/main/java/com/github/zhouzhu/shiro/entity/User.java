@@ -1,4 +1,4 @@
-package com.github.zhouzhu.shiro.pojo;
+package com.github.zhouzhu.shiro.entity;
 
 import java.io.Serializable;
 

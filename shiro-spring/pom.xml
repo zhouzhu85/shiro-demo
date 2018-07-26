@@ -172,7 +172,7 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-          <port>8065</port>
+          <port>8075</port>
           <path>/</path>
         </configuration>
 

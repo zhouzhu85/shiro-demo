@@ -22,4 +22,9 @@ public class AnnotationController {
     public String hello2() {
         return "success";
     }
+
+//    @RequestMapping("login")
+//    public String login(){
+//        return "login";
+//    }
 }

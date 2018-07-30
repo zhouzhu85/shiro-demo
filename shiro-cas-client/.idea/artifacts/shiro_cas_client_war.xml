@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shiro-cas-client:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="shiro-cas-client.war">
+      <element id="artifact" artifact-name="shiro-cas-client:war exploded" />
+    </root>
+  </artifact>
+</component>

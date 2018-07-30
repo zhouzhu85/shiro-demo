@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [27/Jul/2018:20:20:49 +0800] "GET /shiro-cas-client HTTP/1.1" 302 - http-bio-8055-exec-1 0
+0:0:0:0:0:0:0:1 - - [27/Jul/2018:20:20:50 +0800] "GET /shiro-cas-client/ HTTP/1.1" 302 - http-bio-8055-exec-3 102
+0:0:0:0:0:0:0:1 - - [27/Jul/2018:20:20:50 +0800] "GET /shiro-cas-client/cas?ticket=ST-6-6533GdPYGYcdOP7u1YSr-cas01.example.org HTTP/1.1" 302 - http-bio-8026-exec-2 34
+0:0:0:0:0:0:0:1 - - [27/Jul/2018:20:20:50 +0800] "GET /shiro-cas-client/casFailure.jsp HTTP/1.1" 200 133 http-bio-8026-exec-3 513
+0:0:0:0:0:0:0:1 - - [27/Jul/2018:20:22:03 +0800] "GET /shiro-cas-client/casFailure.jsp HTTP/1.1" 200 133 http-bio-8026-exec-6 2
+0:0:0:0:0:0:0:1 - - [27/Jul/2018:20:23:25 +0800] "GET /shiro-cas-client/casFailure.jsp HTTP/1.1" 200 133 http-bio-8026-exec-9 2

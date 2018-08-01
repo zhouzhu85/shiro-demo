@@ -30,7 +30,7 @@ public class IndexController {
         Set<String> permissions=userService.findPermissions(loginUser.getUsername());
         List<Resource> menus=resourceService.findMenus(permissions);
         model.addAttribute("menus",menus);
-        return null;
+        return "index";
     }
     @RequestMapping("/welcome")
     public String welcome(){

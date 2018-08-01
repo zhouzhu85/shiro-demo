@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 /**
  * @ClassName: OrganizationController
@@ -48,5 +49,43 @@ public class OrganizationController {
         return "organization/appendChild";
     }
 
+    @RequiresPermissions("organization:create")
+    @RequestMapping(value = "/{parentId}/appendChild",method = RequestMethod.POST)
+    public String create(Organization organization){
+        organizationService.createOrganization(organization);
+        return "redirect:/organization/success";
+    }
+
+    @RequiresPermissions("organization:update")
+    @RequestMapping(value = "/{id}/maintain",method = RequestMethod.GET)
+    public String showMaintainForm(@PathVariable("id") Long id,Model model){
+        model.addAttribute("",organizationService.findOne(id));
+        return "organization/maintain";
+    }
+
+    @RequiresPermissions("organization:update")
+    @RequestMapping(value = "/{id}/update",method = RequestMethod.POST)
+    public String update(Organization organization, RedirectAttributes redirectAttributes){
+        organizationService.updateOrganization(organization);
+        redirectAttributes.addFlashAttribute("msg","修改成功");
+        return "redirect:/organization/success";
+    }
+
+    @RequiresPermissions("organization:delete")
+    @RequestMapping(value = "/{id}/delete",method = RequestMethod.POST)
+    public String delete(@PathVariable("id") Long id,RedirectAttributes redirectAttributes){
+        organizationService.deleteOrganization(id);
+        redirectAttributes.addFlashAttribute("msg","删除成功");
+        return "redirect:/organization/success";
+    }
+
+    @RequiresPermissions("organization:update")
+    @RequestMapping(value = "/{sourceId}/move",method = RequestMethod.GET)
+    public String showMoveForm(@PathVariable("sourceId") Long sourceId,Model model){
+        Organization organization=organizationService.findOne(sourceId);
+        model.addAttribute("source",organization);
+        model.addAttribute("targetList",organizationService.findAllWithExclude(organization));
+        return "organization/move";
+    }
 
 }

@@ -9,10 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-<<<<<<< HEAD
-=======
 import org.springframework.web.bind.annotation.RequestParam;
->>>>>>> ba8abb032a52a63ca40ed56504f830da583f29b3
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 /**

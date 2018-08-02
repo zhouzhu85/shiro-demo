@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shiro-OAuth:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="shiro-OAuth.war">
+      <element id="artifact" artifact-name="shiro-OAuth:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,4 @@
+com\github\zhouzhu\oauth2\OAuth2Token.class
+com\github\zhouzhu\oauth2\OAuth2Realm.class
+com\github\zhouzhu\oauth2\OAuth2AuthenticationFilter.class
+com\github\zhouzhu\oauth2\OAuth2AuthenticationException.class

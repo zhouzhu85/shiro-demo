@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [02/Aug/2018:20:33:32 +0800] "GET /shiro-OAuth-client HTTP/1.1" 302 - http-bio-9080-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Aug/2018:20:33:34 +0800] "GET /shiro-OAuth-client/ HTTP/1.1" 200 137 http-bio-9080-exec-3 1479
+0:0:0:0:0:0:0:1 - - [02/Aug/2018:20:33:37 +0800] "GET /shiro-OAuth-client/ HTTP/1.1" 200 137 http-bio-9080-exec-4 3
+0:0:0:0:0:0:0:1 - - [02/Aug/2018:20:33:41 +0800] "GET /shiro-OAuth-client/oauth2-login HTTP/1.1" 302 - http-bio-9080-exec-6 4
+0:0:0:0:0:0:0:1 - - [02/Aug/2018:20:34:04 +0800] "GET /shiro-OAuth-client/oauth2-login?code=a59bfa50364ed48c7aad9b4f1eddeaf8 HTTP/1.1" 302 - http-bio-9080-exec-8 38
+0:0:0:0:0:0:0:1 - - [02/Aug/2018:20:34:04 +0800] "GET /shiro-OAuth-client/oauth2-login HTTP/1.1" 302 - http-bio-9080-exec-10 14
+0:0:0:0:0:0:0:1 - - [02/Aug/2018:20:34:04 +0800] "GET /shiro-OAuth-client/ HTTP/1.1" 200 76 http-bio-9080-exec-10 3

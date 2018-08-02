@@ -78,8 +78,7 @@ public class OrganizationController {
         redirectAttributes.addFlashAttribute("msg", "删除成功");
         return "redirect:/organization/success";
     }
-
-
+    
     @RequiresPermissions("organization:update")
     @RequestMapping(value = "/{sourceId}/move", method = RequestMethod.GET)
     public String showMoveForm(@PathVariable("sourceId") Long sourceId, Model model) {

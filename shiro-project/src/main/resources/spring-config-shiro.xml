@@ -100,6 +100,15 @@
         <property name="loginUrl" value="/login"/>
     </bean>
 
+    <bean id="kickoutSessionControlFilter" class="com.github.zhouzhu.web.shiro.filter.KickoutSessionControlFilter">
+        <property name="cacheManager" ref="cacheManager"/>
+        <property name="sessionManager" ref="sessionManager"/>
+
+        <property name="kickoutAfter" value="false"/>
+        <property name="maxSession" value="2"/>
+        <property name="kickoutUrl" value="/login?kickout=1"/>
+    </bean>
+
     <bean id="sysUserFilter" class="com.github.zhouzhu.web.shiro.filter.SysUserFilter"/>
 
     <!-- Shiro的Web过滤器 -->
@@ -110,6 +119,7 @@
             <util:map>
                 <entry key="authc" value-ref="formAuthenticationFilter"/>
                 <entry key="sysUser" value-ref="sysUserFilter"/>
+                <entry key="kickout" value-ref="kickoutSessionControlFilter"/>
             </util:map>
         </property>
         <property name="filterChainDefinitions">
@@ -117,7 +127,7 @@
                 /login = authc
                 /logout = logout
                 /authenticated = authc
-                /** = user,sysUser
+                /** = kickout,user,sysUser
             </value>
         </property>
     </bean>

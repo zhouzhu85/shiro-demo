@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shiroMulti-project-app1" />
+        <module name="shiroMulti-project-app2" />
+        <module name="shiroMulti-project-client" />
+        <module name="shiroMulti-project-core" />
+        <module name="shiroMulti-project-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shiroMulti-project-app1" target="1.7" />
+      <module name="shiroMulti-project-app2" target="1.7" />
+      <module name="shiroMulti-project-client" target="1.5" />
+      <module name="shiroMulti-project-core" target="1.5" />
+      <module name="shiroMulti-project-root" target="1.5" />
+      <module name="shiroMulti-project-server" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

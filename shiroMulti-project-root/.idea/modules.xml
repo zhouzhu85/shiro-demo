@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shiroMulti-project-app1/shiroMulti-project-app1.iml" filepath="$PROJECT_DIR$/shiroMulti-project-app1/shiroMulti-project-app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiroMulti-project-app2/shiroMulti-project-app2.iml" filepath="$PROJECT_DIR$/shiroMulti-project-app2/shiroMulti-project-app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiroMulti-project-client/shiroMulti-project-client.iml" filepath="$PROJECT_DIR$/shiroMulti-project-client/shiroMulti-project-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiroMulti-project-core/shiroMulti-project-core.iml" filepath="$PROJECT_DIR$/shiroMulti-project-core/shiroMulti-project-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiroMulti-project-root.iml" filepath="$PROJECT_DIR$/shiroMulti-project-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiroMulti-project-server/shiroMulti-project-server.iml" filepath="$PROJECT_DIR$/shiroMulti-project-server/shiroMulti-project-server.iml" />
+    </modules>
+  </component>
+</project>

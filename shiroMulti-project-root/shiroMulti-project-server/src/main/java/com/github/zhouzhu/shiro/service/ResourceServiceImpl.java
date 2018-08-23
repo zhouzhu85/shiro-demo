@@ -1,5 +1,6 @@
 package com.github.zhouzhu.shiro.service;
 
+
 import com.github.zhouzhu.shiro.dao.ResourceDao;
 import com.github.zhouzhu.shiro.entity.Resource;
 import org.apache.shiro.authz.permission.WildcardPermission;

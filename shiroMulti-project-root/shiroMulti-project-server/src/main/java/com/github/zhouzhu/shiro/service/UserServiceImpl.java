@@ -1,5 +1,6 @@
 package com.github.zhouzhu.shiro.service;
 
+
 import com.github.zhouzhu.shiro.dao.UserDao;
 import com.github.zhouzhu.shiro.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,30 +73,5 @@ public class UserServiceImpl implements UserService {
         return userDao.findByUsername(username);
     }
 
-    /**
-     * 根据用户名查找其角色
-     * @param username
-     * @return
-     */
-    public Set<String> findRoles(String username) {
-        User user =findByUsername(username);
-        if(user == null) {
-            return Collections.EMPTY_SET;
-        }
-        return roleService.findRoles(user.getRoleIds().toArray(new Long[0]));
-    }
-
-    /**
-     * 根据用户名查找其权限
-     * @param username
-     * @return
-     */
-    public Set<String> findPermissions(String username) {
-        User user =findByUsername(username);
-        if(user == null) {
-            return Collections.EMPTY_SET;
-        }
-        return roleService.findPermissions(user.getRoleIds().toArray(new Long[0]));
-    }
 
 }

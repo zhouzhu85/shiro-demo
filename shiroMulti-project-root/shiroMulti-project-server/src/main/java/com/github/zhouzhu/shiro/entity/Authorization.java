@@ -1,6 +1,7 @@
 package com.github.zhouzhu.shiro.entity;
 
 import org.springframework.util.CollectionUtils;
+import org.springframework.util.StringUtils;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -41,10 +42,9 @@ public class Authorization implements Serializable{
     public void setAppId(Long appId) {
         this.appId = appId;
     }
-
     public List<Long> getRoleIds() {
-        if (roleIds==null){
-            roleIds=new ArrayList<Long>();
+        if(roleIds == null) {
+            roleIds = new ArrayList<Long>();
         }
         return roleIds;
     }
@@ -53,11 +53,56 @@ public class Authorization implements Serializable{
         this.roleIds = roleIds;
     }
 
-    public String getRoleIdsStr(){
-        if (CollectionUtils.isEmpty(roleIds)){
+
+    public String getRoleIdsStr() {
+        if(CollectionUtils.isEmpty(roleIds)) {
             return "";
         }
-        StringBuffer s=new StringBuffer();
-        return "";
+        StringBuilder s = new StringBuilder();
+        for(Long roleId : roleIds) {
+            s.append(roleId);
+            s.append(",");
+        }
+        return s.toString();
+    }
+
+    public void setRoleIdsStr(String roleIdsStr) {
+        if(StringUtils.isEmpty(roleIdsStr)) {
+            return;
+        }
+        String[] roleIdStrs = roleIdsStr.split(",");
+        for(String roleIdStr : roleIdStrs) {
+            if(StringUtils.isEmpty(roleIdStr)) {
+                continue;
+            }
+            getRoleIds().add(Long.valueOf(roleIdStr));
+        }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Authorization that = (Authorization) o;
+
+        if (id != null ? !id.equals(that.id) : that.id != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return id != null ? id.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Authorization{" +
+                "id=" + id +
+                ", userId=" + userId +
+                ", appId=" + appId +
+                ", roleIds=" + roleIds +
+                '}';
     }
 }

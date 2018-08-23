@@ -1,5 +1,6 @@
 package com.github.zhouzhu.shiro.service;
 
+
 import com.github.zhouzhu.shiro.dao.RoleDao;
 import com.github.zhouzhu.shiro.entity.Role;
 import org.springframework.beans.factory.annotation.Autowired;

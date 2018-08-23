@@ -1,14 +1,8 @@
 package com.github.zhouzhu.shiro.web.taglib;
 
 
-import com.github.zhouzhu.shiro.entity.Organization;
-import com.github.zhouzhu.shiro.entity.Resource;
-import com.github.zhouzhu.shiro.entity.Role;
-import com.github.zhouzhu.shiro.entity.User;
-import com.github.zhouzhu.shiro.service.OrganizationService;
-import com.github.zhouzhu.shiro.service.ResourceService;
-import com.github.zhouzhu.shiro.service.RoleService;
-import com.github.zhouzhu.shiro.service.UserService;
+import com.github.zhouzhu.shiro.entity.*;
+import com.github.zhouzhu.shiro.service.*;
 import com.github.zhouzhu.shiro.spring.SpringUtils;
 import org.springframework.util.CollectionUtils;
 
@@ -24,6 +18,21 @@ public class Functions {
             return false;
         }
         return CollectionUtils.contains(iterable.iterator(), element);
+    }
+
+    public static String username(Long userId) {
+        User user = getUserService().findOne(userId);
+        if(user == null) {
+            return "";
+        }
+        return user.getUsername();
+    }
+    public static String appName(Long appId) {
+        App app = getAppService().findOne(appId);
+        if(app == null) {
+            return "";
+        }
+        return app.getName();
     }
 
     public static String organizationName(Long organizationId) {
@@ -113,18 +122,25 @@ public class Functions {
         return s.toString();
     }
 
-    public static String username(Long userId) {
-        User user = getUserService().findOne(userId);
-        if(user == null) {
-            return "";
-        }
-        return user.getUsername();
-    }
-
     private static OrganizationService organizationService;
     private static RoleService roleService;
     private static ResourceService resourceService;
     private static UserService userService;
+    private static AppService appService;
+
+    public static UserService getUserService() {
+        if(userService == null) {
+            userService = SpringUtils.getBean(UserService.class);
+        }
+        return userService;
+    }
+
+    public static AppService getAppService() {
+        if(appService == null) {
+            appService = SpringUtils.getBean(AppService.class);
+        }
+        return appService;
+    }
 
     public static OrganizationService getOrganizationService() {
         if(organizationService == null) {
@@ -145,12 +161,6 @@ public class Functions {
             resourceService = SpringUtils.getBean(ResourceService.class);
         }
         return resourceService;
-    }
-    public static UserService getUserService() {
-        if(userService == null) {
-            userService = SpringUtils.getBean(UserService.class);
-        }
-        return userService;
     }
 }
 

@@ -1,6 +1,8 @@
 package com.github.zhouzhu.shiro.realm;
 
+import com.github.zhouzhu.shiro.Constants;
 import com.github.zhouzhu.shiro.entity.User;
+import com.github.zhouzhu.shiro.service.AuthorizationService;
 import com.github.zhouzhu.shiro.service.UserService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -11,22 +13,23 @@ import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * <p>User: Zhang Kaitao
- * <p>Date: 14-1-28
- * <p>Version: 1.0
+ *
  */
 public class UserRealm extends AuthorizingRealm {
 
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private AuthorizationService authorizationService;
+
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         String username = (String)principals.getPrimaryPrincipal();
 
         SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
-        authorizationInfo.setRoles(userService.findRoles(username));
-        authorizationInfo.setStringPermissions(userService.findPermissions(username));
+        authorizationInfo.setRoles(authorizationService.findRoles(Constants.SERVER_APP_KEY, username));
+        authorizationInfo.setStringPermissions(authorizationService.findPermissions(Constants.SERVER_APP_KEY, username));
         return authorizationInfo;
     }
 

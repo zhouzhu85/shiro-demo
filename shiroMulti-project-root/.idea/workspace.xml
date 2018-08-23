@@ -17,141 +17,102 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/bind/annotation/CurrentUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentUserMethodArgumentResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/bind/method/CurrentUserMethodArgumentResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultExceptionHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/exception/DefaultExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RetryLimitHashedCredentialsMatcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/credentials/RetryLimitHashedCredentialsMatcher.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/App.java">
+      <file leaf-file-name="spring-client.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding>
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1443#1444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Authorization.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/Authorization.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="230">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Organization.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/Organization.java">
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/java/com/github/zhouzhu/shiro/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="437">
+              <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shiro-client-default.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/shiro-client-default.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unauthorized.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/webapp/unauthorized.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/webapp/success.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/success.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/com/github/zhouzhu/shiro/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-client-remote-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client-remote-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-client-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1978">
+              <caret line="86" column="63" lean-forward="true" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -164,8 +125,24 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>select id, organization_id, username, password, salt, role_ids as roleIdsStr, locked from sys_user where username</find>
+      <find>findPermissions</find>
+      <find>com.github.zhangkaitao.shiro.chapter23.web.taglib.Functions</find>
+      <find>remoteRealm</find>
+      <find>spring-mvc.xml</find>
+      <find>remoteService</find>
+      <find>filters</find>
+      <find>filtersStr</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.github.zhouzhu.shiro.web.taglib.Functions</replace>
+    </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -175,18 +152,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-client/pom.xml" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-core/pom.xml" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-app1/pom.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/OrganizationDao.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/OrganizationDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/ResourceDao.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/ResourceDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/RoleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/OrganizationService.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/OrganizationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/PasswordHelper.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/ResourceService.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/ResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/UserService.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/Constants.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/realm/UserRealm.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/taglib/Functions.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/credentials/RetryLimitHashedCredentialsMatcher.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/User.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/tld/zhang-functions.tld" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/shiro-client-default.properties" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/spring-client-remote-service.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/spring-client-shiro.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/spring-client.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app1/src/main/java/com/github/zhouzhu/shiro/exception/DefaultExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app1/src/main/resources/client/shiro-client.properties" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app1/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/shiro/exception/DefaultExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/shiro/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app2/src/main/resources/client/shiro-client.properties" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientRealm.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client-shiro.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientSessionDAO.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client-remote-service.xml" />
         <option value="$PROJECT_DIR$/shiroMulti-project-app2/pom.xml" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-server/pom.xml" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-core/src/main/java/com/github/zhouzhu/shiro/core/ClientSaveRequest.java" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-core/src/main/java/com/github/zhouzhu/shiro/remote/PermissionContext.java" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-core/src/main/java/com/github/zhouzhu/shiro/remote/RemoteServiceInterface.java" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/credentials/RetryLimitHashedCredentialsMatcher.java" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/App.java" />
-        <option value="$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/Authorization.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app1/pom.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientShiroFilterFactoryBean.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app1/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app2/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/success.jsp" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/com/github/zhouzhu/shiro/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/shiroMulti-project-app1/src/main/java/com/github/zhouzhu/shiro/controller/HelloController.java" />
       </list>
     </option>
   </component>
@@ -207,6 +223,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiroMulti-project-root" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shiroMulti-project-root" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="616" />
@@ -229,8 +261,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,40 +275,25 @@
             <path>
               <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-app1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
               <item name="shiroMulti-project-app2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-server" type="462c0819:PsiDirectoryNode" />
+              <item name="shiroMulti-project-app2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-server" type="462c0819:PsiDirectoryNode" />
+              <item name="shiroMulti-project-app2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-server" type="462c0819:PsiDirectoryNode" />
+              <item name="shiroMulti-project-app2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -282,7 +301,7 @@
             <path>
               <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-server" type="462c0819:PsiDirectoryNode" />
+              <item name="shiroMulti-project-app2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -291,19 +310,17 @@
             <path>
               <item name="shiroMulti-project-root" type="b2602c69:ProjectViewProjectNode" />
               <item name="shiroMulti-project-root" type="462c0819:PsiDirectoryNode" />
-              <item name="shiroMulti-project-server" type="462c0819:PsiDirectoryNode" />
+              <item name="shiroMulti-project-app2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="shiro" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,13 +328,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3101712" />
+    <property name="last_opened_file_path" value="D:/java/WebPC" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-client\src\main\resources\client" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-server\src\main\java\com\github\zhouzhu\shiro" />
-      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-server\src\main\java" />
+      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-app2\src\main\webapp" />
+      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-app2\src\main\java\com\github\zhouzhu\shiro" />
+      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-app2\src\main\resources" />
+      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-app2\src\main\java" />
+      <recent name="D:\myWork\shiro-demo\shiroMulti-project-root\shiroMulti-project-app1\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.shiroMulti-project-server [run]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -374,6 +399,78 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="shiroMulti-project-app1 [run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/shiroMulti-project-app1" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="shiroMulti-project-app2 [run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/shiroMulti-project-app2" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="shiroMulti-project-server [run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="true" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/shiroMulti-project-server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -414,6 +511,11 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Maven.shiroMulti-project-server [run]" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.shiroMulti-project-app1 [run]" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.shiroMulti-project-app2 [run]" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -428,46 +530,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534407134885</updated>
-      <workItem from="1534407139549" duration="11680000" />
+      <workItem from="1534407139549" duration="15293000" />
+      <workItem from="1534751468325" duration="93000" />
+      <workItem from="1534751572924" duration="31000" />
+      <workItem from="1534751615334" duration="2856000" />
+      <workItem from="1534755101669" duration="23530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11680000" />
+    <option name="totallyTimeSpent" value="41803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5020243" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5951417" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26432666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -478,22 +583,96 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/organization/appendChild.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
+        <state relative-caret-position="116">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/organization/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/organization/maintain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/organization/move.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/organization/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/organization/tree.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/app/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/resource/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/jsp/resource/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -506,66 +685,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="32" column="41" lean-forward="false" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1655">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-core/src/main/java/com/github/zhouzhu/shiro/remote/RemoteServiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="75" lean-forward="false" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-core/src/main/java/com/github/zhouzhu/shiro/remote/PermissionContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#385#386#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-            <element signature="e#543#544#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/credentials/RetryLimitHashedCredentialsMatcher.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/target/maven-archiver/pom.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -573,221 +693,315 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-core/src/main/java/com/github/zhouzhu/shiro/core/ClientSaveRequest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/http/HttpStatus.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#773#774#0" expanded="false" />
-            <element signature="e#802#803#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#864#865#0" expanded="false" />
-            <element signature="e#892#893#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
-            <element signature="e#991#992#0" expanded="false" />
-            <element signature="e#1025#1026#0" expanded="false" />
-            <element signature="e#1055#1056#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/OrganizationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="230">
+          <caret line="11" column="111" lean-forward="false" selection-start-line="11" selection-start-column="111" selection-end-line="11" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/RoleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/OrganizationDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/java/com/github/zhouzhu/shiro/exception/DefaultExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
-          <caret line="78" column="13" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-          <folding>
-            <marker date="1534213006877" expanded="true" signature="808:893" ph="insert into sys_organization... " />
-            <marker date="1534213006877" expanded="true" signature="1826:1911" ph="update sys_organization... " />
-            <marker date="1534213006877" expanded="true" signature="2306:2345" ph="delete from sys_organization... " />
-            <marker date="1534213006877" expanded="true" signature="2453:2505" ph="delete from sys_organization... " />
-            <marker date="1534213006877" expanded="true" signature="2706:2788" ph="select id, n... sys_organization" />
-            <marker date="1534213006877" expanded="true" signature="3134:3205" ph="select id, n... sys_organization" />
-            <marker date="1534213006877" expanded="true" signature="3463:3572" ph="select id, n... sys_organization" />
-            <marker date="1534213006877" expanded="true" signature="3860:3923" ph="update sys_organization... " />
-            <marker date="1534213006877" expanded="true" signature="4068:4174" ph="update sys_organization... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/ResourceDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <marker date="1534215219243" expanded="true" signature="779:888" ph="insert into sys_resource... " />
-            <marker date="1534215219243" expanded="true" signature="1976:2086" ph="update sys_resource... " />
-            <marker date="1534215219243" expanded="true" signature="2509:2544" ph="delete from sys_resource... " />
-            <marker date="1534215219243" expanded="true" signature="2648:2696" ph="delete from sys_resource... " />
-            <marker date="1534215219243" expanded="true" signature="2885:2986" ph="select id, n... sys_resource" />
-            <marker date="1534215219243" expanded="true" signature="3304:3430" ph="select id, n... sys_resource" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/RoleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <marker date="1534215219361" expanded="true" signature="752:832" ph="insert into sys_role... " />
-            <marker date="1534215219361" expanded="true" signature="1695:1776" ph="update sys_role... " />
-            <marker date="1534215219361" expanded="true" signature="2044:2075" ph="delete from sys_role... " />
-            <marker date="1534215219361" expanded="true" signature="2209:2305" ph="select id, r... sys_role" />
-            <marker date="1534215219361" expanded="true" signature="2595:2680" ph="select id, r... sys_role" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/bind/annotation/CurrentUser.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/bind/method/CurrentUserMethodArgumentResolver.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/shiro/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="575">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/shiro/exception/DefaultExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="483">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/web/exception/DefaultExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/com/github/zhouzhu/shiro/exception/DefaultExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/credentials/RetryLimitHashedCredentialsMatcher.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/resources/client/shiro-client.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/resources/spring-mvc-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/resources/spring-mvc-remote-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/resources/spring-config-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="85" column="58" lean-forward="false" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/unauthorized.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.2.2/shiro-core-1.2.2-sources.jar!/org/apache/shiro/realm/AuthorizingRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629">
+          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#867#868#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientSessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#539#540#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1212#1213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/resources/client/shiro-client.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/java/com/github/zhouzhu/client/ClientShiroFilterFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <caret line="10" column="107" lean-forward="false" selection-start-line="10" selection-start-column="107" selection-end-line="10" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/UserRunAs.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="207">
+          <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/webapp/unauthorized.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/Organization.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/webapp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/App.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/webapp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1443#1444#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="334">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shiroMulti-project-server/src/main/java/com/github/zhouzhu/shiro/entity/Authorization.java">
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app1/src/main/java/com/github/zhouzhu/shiro/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="60" column="18" lean-forward="false" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="437">
+          <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/shiro-client-default.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client-remote-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-client/src/main/resources/client/spring-client-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="86" column="63" lean-forward="true" selection-start-line="86" selection-start-column="63" selection-end-line="86" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shiroMulti-project-app2/src/main/java/com/github/zhouzhu/shiro/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,12 +1059,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>shiroMulti-project-core</last-edited>
+          <last-edited>shiroMulti-project-client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3101712" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -874,7 +1087,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3101712" />
               </list>
             </option>
           </splitter-proportions>

@@ -14,8 +14,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shiroMulti-project-app1" target="1.7" />
-      <module name="shiroMulti-project-app2" target="1.7" />
+      <module name="shiroMulti-project-app1" target="1.5" />
+      <module name="shiroMulti-project-app2" target="1.5" />
       <module name="shiroMulti-project-client" target="1.5" />
       <module name="shiroMulti-project-core" target="1.5" />
       <module name="shiroMulti-project-root" target="1.5" />
